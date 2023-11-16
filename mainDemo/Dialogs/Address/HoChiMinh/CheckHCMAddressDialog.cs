@@ -8,7 +8,7 @@ namespace mainDemo.Dialogs.Address.HoChiMinh
         {
             AddStep(async (stepContext, cancellationToken) =>
             {
-                await stepContext.Context.SendActivityAsync("Các chi nhánh tại Hồ Chính Minh:  \n" +
+                await stepContext.Context.SendActivityAsync("Các chi nhánh tại Hồ Chí Minh:  \n" +
                     "CN1: 7/60 Thành Thái, Quận 10, HCM  \n" +
                     "CN2: 46-48 Cô Giang, W2, District Phú Nhuận  \n" +
                     "CN3: 483/4 Lê Văn Sỹ - Phường 12 - Q3 ");
